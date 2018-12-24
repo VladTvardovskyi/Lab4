@@ -2,19 +2,15 @@
 #include <string>
 #include  "Header.h"
 using namespace std;
-class dishwatermachine1 : public Dishwatermachine
+
+dishWaterMachine::dishWaterMachine(int var1, int var2)
+: justAVariable(var1), justANewVariable(var2)
 {
-public:
-	dishwatermachine1(int ultr, int machn)
-	{
-		ultra = ultr;
-		machine = machn;
-		cout << ultra << machine << endl;
-	}
-	~dishwatermachine1() {
+	cout << justAVariable << justANewVariable << endl;
+}
 
-	}
+dishWaterMachine::~dishWaterMachine1()
+{
 
-	
-};
+}
 
