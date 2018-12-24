@@ -4,12 +4,12 @@
 using namespace std;
 int main()
 {
-	Dishwatermachine a;
-	a.Setwaterlost(11);
-	a.name = "apple wash";
-	a.Setnumber_of_programs(5);
-	a.Setnumber_of_sets(5);
-	a.Printf();
+	DishWaterMachine Machine;
+	Machine.setWaterLost(11);
+	Machine.name = "apple wash";
+	Machine.setNumberOfPrograms(5);
+	Machine.setNumberOfSets(5);
+	Machine.Print();
 
 	system("pause");
 	return 0;
