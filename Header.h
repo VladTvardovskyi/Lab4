@@ -4,55 +4,53 @@
 
 using namespace std;
 
-class Dishwatermachine
+class DishWaterMachine
 {
 private:
-	int waterlost;
-	int number_of_programs;
-	int number_of_sets;
+	int waterLost;
+	int numberOfPrograms;
+	int numberOfSets;
 protected:
-	int ultra;
-	int machine;
+	int justAVariable;
+	int justANewVariable;
 public:
-	
-	int Getwaterlost()
-	{
-		return waterlost;
-	}
-
-	void Setwaterlost(int valuewaterlost)
-	{
-		waterlost = valuewaterlost;
-	}
-
-	int Getnumber_of_programs()
-	{
-		return number_of_programs;
-	}
-
-	void Setnumber_of_programs(int valuenumer_of_programs)
-	{
-		number_of_programs = valuenumer_of_programs;
-	}
-
-	int Getnumber_of_sets()
-	{
-		return number_of_sets;
-	}
-
-
-	void Setnumber_of_sets(int valuenumber_of_sets)
-	{
-		number_of_sets = valuenumber_of_sets;
-	}
-
 	string name;
- 
+ 	DishWaterMachine()
+	int GetWaterLost()
+	{
+		return waterLost;
+	}
+
+	void setWaterLost(int valueWaterLost)
+	{
+		waterLost = valueWaterLost;
+	}
+
+	int getNumberOfPrograms()
+	{
+		return numberOfPrograms;
+	}
+
+	void setNumberOfPrograms(int valueNumerOfPrograms)
+	{
+		numberOfPrograms = valueNumerOfPrograms;
+	}
+
+	int getNumberOfSets()
+	{
+		return numberOfSets;
+	}
+
+
+	void setNumberOfsets(int valueNumberOfSets)
+	{
+		numberOfSets = valueNumberOfSets;
+	}
 
 	
-	void Printf()
+	void Print()
 	{
-		cout << "waterlost=" << waterlost << "\t number_of_programs=" << number_of_programs << "\t name=" << name << "\t number_of_sets=" << number_of_sets << endl << endl;
+		cout << "waterlost=" << waterLost << "\t number of programs=" << numberOfPrograms << "\t name=" << name << "\t number of sets=" << numberOfSets << endl << endl;
 	}
 };
 
